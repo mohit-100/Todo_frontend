@@ -1,0 +1,53 @@
+{
+  "logo": {
+    "text": "TaskFlow",
+    "icon": "✅"
+  },
+  "navLinks": [
+    {
+      "label": "Dashboard",
+      "href": "/",
+      "icon": "📊"
+    },
+    {
+      "label": "Tasks",
+      "href": "/tasks",
+      "icon": "✓"
+    }
+  ],
+  "dropdowns": [
+    {
+      "id": "categories",
+      "label": "Categories",
+      "icon": "📁",
+      "items": [
+        { "label": "Work", "href": "/categories/work", "icon": "💼", "color": "blue" },
+        { "label": "Personal", "href": "/categories/personal", "icon": "🏠", "color": "green" },
+        { "label": "Learning", "href": "/categories/learning", "icon": "📚", "color": "purple" },
+        { "label": "Health", "href": "/categories/health", "icon": "💪", "color": "red" },
+        { "label": "Finance", "href": "/categories/finance", "icon": "💰", "color": "yellow" }
+      ]
+    },
+    {
+      "id": "priority",
+      "label": "Priority",
+      "icon": "⚡",
+      "items": [
+        { "label": "High", "href": "/priority/high", "icon": "🔴", "color": "red" },
+        { "label": "Medium", "href": "/priority/medium", "icon": "🟡", "color": "yellow" },
+        { "label": "Low", "href": "/priority/low", "icon": "🟢", "color": "green" }
+      ]
+    },
+    {
+      "id": "user",
+      "label": "Account",
+      "icon": "👤",
+      "items": [
+        { "label": "Profile", "href": "/profile", "icon": "👤" },
+        { "label": "Settings", "href": "/settings", "icon": "⚙️" },
+        { "label": "Help", "href": "/help", "icon": "❓" },
+        { "label": "Sign Out", "href": "/logout", "icon": "🚪" }
+      ]
+    }
+  ]
+}

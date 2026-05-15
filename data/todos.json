@@ -1,0 +1,60 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Complete Next.js project",
+      "description": "Build a todo app with dynamic navbar from JSON",
+      "category": "Work",
+      "priority": "High",
+      "completed": false,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "dueDate": "2024-01-20T23:59:59Z"
+    },
+    {
+      "id": 2,
+      "title": "Learn Tailwind CSS",
+      "description": "Master Tailwind utility classes",
+      "category": "Learning",
+      "priority": "High",
+      "completed": false,
+      "createdAt": "2024-01-14T09:30:00Z",
+      "dueDate": "2024-01-18T23:59:59Z"
+    },
+    {
+      "id": 3,
+      "title": "Morning workout",
+      "description": "30 minutes cardio and stretching",
+      "category": "Health",
+      "priority": "Medium",
+      "completed": true,
+      "createdAt": "2024-01-15T06:00:00Z",
+      "dueDate": "2024-01-15T07:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Review monthly budget",
+      "description": "Check expenses and plan next month",
+      "category": "Finance",
+      "priority": "Medium",
+      "completed": false,
+      "createdAt": "2024-01-15T14:00:00Z",
+      "dueDate": "2024-01-22T23:59:59Z"
+    },
+    {
+      "id": 5,
+      "title": "Read TypeScript documentation",
+      "description": "Advanced types and generics",
+      "category": "Learning",
+      "priority": "Low",
+      "completed": false,
+      "createdAt": "2024-01-13T20:00:00Z",
+      "dueDate": "2024-01-25T23:59:59Z"
+    }
+  ],
+  "stats": {
+    "totalTasks": 5,
+    "completedTasks": 1,
+    "pendingTasks": 4,
+    "completionRate": 20
+  }
+}
