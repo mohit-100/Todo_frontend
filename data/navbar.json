@@ -1,0 +1,34 @@
+
+{
+  "logo": {
+    "text": "TaskFlow",
+    "icon": "✅"
+  },
+
+  "categories": [
+    "Work",
+    "Personal",
+    "Learning",
+    "Health",
+    "Finance"
+  ],
+
+  "priorities": [
+    "High",
+    "Medium",
+    "Low"
+  ],
+
+  "navLinks": [
+    {
+      "label": "Dashboard",
+      "href": "/",
+      "icon": "📊"
+    },
+    {
+      "label": "Tasks",
+      "href": "/tasks",
+      "icon": "✓"
+    }
+  ]
+}
